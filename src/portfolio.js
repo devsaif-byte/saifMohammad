@@ -10,7 +10,7 @@ const about = {
   role: 'MERN Stack Developer',
   description:
     'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://shorturl.at/bchz1',
+  Resume: 'https://shorturl.at/bchz1',
   social: {
     Facebook: 'https://www.facebook.com/saifmohammad2020/',
     linkedin: 'https://www.linkedin.com/in/saif-mohammad-9995801a2/',
@@ -22,12 +22,12 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Bankist Transaction',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'A basic transaction app that shows up current accout balance after logged in. User can transfar money, request loan and delete account. All actions are a demonstration purpose.',
+    stack: ['HTML', 'CSS', 'JavaScript'],
+    sourceCode: 'https://github.com/devsaif-byte/bankist-arr',
+    livePreview: 'https://my-repo-gzgbdzura-devsaif-byte.vercel.app/',
   },
   {
     name: 'Project 2',
