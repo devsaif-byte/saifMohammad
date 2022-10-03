@@ -30,12 +30,12 @@ const projects = [
     livePreview: 'https://my-repo-gzgbdzura-devsaif-byte.vercel.app/',
   },
   {
-    name: 'Project 2',
+    name: 'DOM Bankist',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'A clean minimalist banking website with beautiful transition effects.',
+    stack: ['HTML', 'CSS', 'Vanilla Js'],
+    sourceCode: 'https://github.com/devsaif-byte/dom-bankist',
+    livePreview: 'https://dom-bankist.vercel.app/',
   },
   {
     name: 'Project 3',
