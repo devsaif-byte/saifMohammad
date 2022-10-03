@@ -10,7 +10,7 @@ const about = {
   role: 'MERN Stack Developer',
   description:
     'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'shorturl.at/hjUXZ',
+  resume: 'shorturl.at/ipRZ2',
   social: {
     Facebook: 'https://www.facebook.com/saifmohammad2020/',
     linkedin: 'https://www.linkedin.com/in/saif-mohammad-9995801a2/',
