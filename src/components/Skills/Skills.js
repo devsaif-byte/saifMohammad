@@ -2,7 +2,7 @@ import uniqid from 'uniqid'
 import { skills } from '../../portfolio'
 import './Skills.css'
 
-const Skills = () => {
+function Skills() {
   if (!skills.length) return null
 
   return (

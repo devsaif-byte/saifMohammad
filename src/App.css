@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+
 .app {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Allerta Stencil', 'Poppins', sans-serif;
   line-height: 1.5;
   color: var(--clr-fg);
   background-color: var(--clr-bg);
 }
 
 .light {
-  --clr-bg: #fcfcfc;
+  /* --clr-bg: #fcfcfc; */
+  --clr-bg: #eeeeee;
   --clr-bg-alt: #fff;
   --clr-fg: #555;
   --clr-fg-alt: #444;
@@ -16,7 +19,8 @@
 }
 
 .dark {
-  --clr-bg: #23283e;
+  /* --clr-bg: #23283e; */
+  --clr-bg: #1e1e1e;
   --clr-bg-alt: #2a2f4c;
   --clr-fg: #bdbddd;
   --clr-fg-alt: #cdcdff;
@@ -39,7 +43,7 @@ main {
 
 .section__title {
   text-align: center;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
   text-transform: uppercase;
 }
 
@@ -76,7 +80,7 @@ main {
 
 .link--nav {
   color: var(--clr-fg);
-  text-transform: lowercase;
+  /* text-transform: lowercase; */
   font-weight: 500;
 }
 
@@ -90,8 +94,8 @@ main {
   padding: 0.8em 1.4em;
   font-weight: 500;
   font-size: 0.9rem;
-  text-transform: lowercase;
   transition: transform 0.2s ease-in-out;
+  text-transform: capitalize;
 }
 
 .btn--outline {

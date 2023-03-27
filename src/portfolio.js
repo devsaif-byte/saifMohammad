@@ -1,13 +1,13 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
   homepage: 'https://saif-mohammad.vercel.app/',
-  title: 'Portfolio',
+  title: 'Saif Portfolio',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'Saif Mohammad',
-  role: 'MERN Stack Developer',
+  name: 'Saif',
+  role: 'Front End Developer (React)',
   description:
     'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
   resume:
