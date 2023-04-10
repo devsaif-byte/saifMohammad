@@ -9,9 +9,9 @@ const about = {
   name: 'Saif',
   role: 'Front End Developer (React)',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    "As a Junior Frontend Developer, I engage in building and managing website and web application user interfaces. I'm familiar with front-end web development technologies like HTML, CSS, JavaScript, and React, as well as version control systems and web development tools. I rely on my problem-solving, communication skills, attention to detail, and passion for learning.",
   resume:
-    'https://docs.google.com/document/d/e/2PACX-1vToUg3hwgCP38feN6iUTuHQ6VYYHWIWYbubTLFVq-pM2-W00WVBytCOEpkYsr9e1A/pub',
+    'https://docs.google.com/document/d/1MspPp0arw7JDjlGrnpZnh9tkoujb_TecCWz9FdAl-60/edit?usp=sharing',
   social: {
     Facebook: 'https://www.facebook.com/saifmohammad2020/',
     linkedin: 'https://www.linkedin.com/in/saif-mohammad-9995801a2/',
