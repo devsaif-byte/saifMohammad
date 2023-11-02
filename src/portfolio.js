@@ -25,7 +25,7 @@ const about = {
   resume: 'https://1drv.ms/w/s!AqmKfDMkDkich0fFQt7dokn3zhpd?e=xkxp4O',
   social: {
     Facebook: 'https://www.facebook.com/saifmohammad2020/',
-    linkedin: 'https://www.linkedin.com/in/saif-mohammad-9995801a2/',
+    linkedin: 'https://www.linkedin.com/in/md-saif-bd/',
     github: 'https://github.com/devsaif-byte',
   },
 }
