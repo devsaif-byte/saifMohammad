@@ -1,3 +1,4 @@
+import { FaTerminal } from 'react-icons/fa'
 import { header } from '../../portfolio'
 import Navbar from '../Navbar/Navbar'
 import './Header.css'
@@ -10,7 +11,7 @@ function Header() {
       <h3>
         {homepage ? (
           <a href={homepage} className='link'>
-            {title}
+            <FaTerminal style={{ height: '0.7em', width: '1.2em' }} /> {title}
           </a>
         ) : (
           title

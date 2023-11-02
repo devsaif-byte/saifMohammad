@@ -1,11 +1,12 @@
 import uniqid from 'uniqid'
-import GitHubIcon from '@material-ui/icons/GitHub'
-import LaunchIcon from '@material-ui/icons/Launch'
+import { AiFillGithub } from 'react-icons/ai'
+import { MdLaunch } from 'react-icons/md'
 import './ProjectContainer.css'
 
 function ProjectContainer({ project }) {
   return (
     <div className='project'>
+      <img className='project__image' alt='project' src={project.image} />
       <h3>{project.name}</h3>
 
       <p className='project__description'>{project.description}</p>
@@ -25,7 +26,7 @@ function ProjectContainer({ project }) {
           aria-label='source code'
           className='link link--icon'
         >
-          <GitHubIcon />
+          <AiFillGithub />
         </a>
       )}
 
@@ -35,7 +36,7 @@ function ProjectContainer({ project }) {
           aria-label='live preview'
           className='link link--icon'
         >
-          <LaunchIcon />
+          <MdLaunch />
         </a>
       )}
     </div>

@@ -1,8 +1,5 @@
 import { useContext, useState } from 'react'
-import Brightness2Icon from '@material-ui/icons/Brightness2'
-import WbSunnyRoundedIcon from '@material-ui/icons/WbSunnyRounded'
-import MenuIcon from '@material-ui/icons/Menu'
-import CloseIcon from '@material-ui/icons/Close'
+import { MdBrightness2, MdWbSunny, MdMenu, MdClose } from 'react-icons/md'
 import { ThemeContext } from '../../contexts/theme'
 import { projects, skills, contact } from '../../portfolio'
 import './Navbar.css'
@@ -62,7 +59,7 @@ function Navbar() {
         className='btn btn--icon nav__theme'
         aria-label='toggle theme'
       >
-        {themeName === 'dark' ? <WbSunnyRoundedIcon /> : <Brightness2Icon />}
+        {themeName === 'dark' ? <MdWbSunny /> : <MdBrightness2 />}
       </button>
 
       <button
@@ -71,7 +68,7 @@ function Navbar() {
         className='btn btn--icon nav__hamburger'
         aria-label='toggle navigation'
       >
-        {showNavList ? <CloseIcon /> : <MenuIcon />}
+        {showNavList ? <MdClose /> : <MdMenu />}
       </button>
     </nav>
   )
