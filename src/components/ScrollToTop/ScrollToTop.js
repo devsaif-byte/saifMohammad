@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/no-interactive-element-to-noninteractive-role */
 import React, { useEffect, useState } from 'react'
 import { BsArrowUp } from 'react-icons/bs'
 import './ScrollToTop.css'
@@ -16,7 +17,7 @@ function ScrollToTop() {
   return isVisible ? (
     <div className='scroll-top'>
       <a href='#top'>
-        <BsArrowUp fontSize='large' />
+        <BsArrowUp fontSize='large' />{' '}
       </a>
     </div>
   ) : null

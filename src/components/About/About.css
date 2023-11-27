@@ -15,7 +15,7 @@
 }
 
 .about__desc {
-  text-align: center;
+  text-align: justify;
   font-size: 1.2rem;
   max-width: 600px;
 }

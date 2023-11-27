@@ -9,6 +9,9 @@ import {
 } from 'react-icons/fa'
 import { SiTailwindcss, SiMongodb, SiExpress } from 'react-icons/si'
 import bankistImage from './images/bankist_mock.png'
+import domBankist from './images/domBankist.png'
+import ageCalc from './images/age_calc.png'
+import mapty from './images/mapty.png'
 
 const header = {
   // all the properties are optional - can be left empty or deleted
@@ -34,9 +37,17 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
+    name: 'Mapty',
+    description: 'A Workout listing location app using vanilla js.',
+    image: mapty,
+    stack: ['HTML', 'SCSS', 'Javascript', 'DOM'],
+    sourceCode: 'https://github.com/devsaif-byte/mapty-extended',
+    livePreview: 'https://mapty-extended.vercel.app/',
+  },
+  {
     name: 'Bankist Transaction',
     description:
-      'A basic transaction app that shows up current account balance after logged in. User can transfer money, request loan and delete account. All actions are a demonstration purpose.',
+      'A basic transaction app that shows up current account balance after logged in. User can transfer money, request loan and delete account.',
     image: bankistImage,
     stack: ['HTML', 'CSS', 'JavaScript'],
     sourceCode: 'https://github.com/devsaif-byte/bankist-arr',
@@ -45,7 +56,8 @@ const projects = [
   {
     name: 'DOM Bankist',
     description:
-      'A clean minimalist banking website with beautiful transition effects.',
+      'A clean minimalist banking webpage with beautiful css animation and effects.',
+    image: domBankist,
     stack: ['HTML', 'CSS', 'Vanilla Js'],
     sourceCode: 'https://github.com/devsaif-byte/dom-bankist',
     livePreview: 'https://dom-bankist.vercel.app/',
@@ -53,18 +65,11 @@ const projects = [
   {
     name: 'Age Calculator',
     description:
-      'A simple age calculator using pico.css, challenge by Frontend Mentor.',
+      'A simple age calculator using vanilla.js and pico.css, challenge by Frontend Mentor.',
+    image: ageCalc,
     stack: ['HTML', 'PicoCSS', 'CSS', 'Javascript', 'DOM'],
     sourceCode: 'https://github.com/devsaif-byte/age-calculator',
     livePreview: 'https://age-calculator3.netlify.app/',
-  },
-  {
-    name: 'Mapty',
-    description:
-      'A Workout listing location app using vanilla js.',
-    stack: ['HTML', 'SCSS', 'Javascript', 'DOM'],
-    sourceCode: 'https://github.com/devsaif-byte/mapty-extended',
-    livePreview: 'https://mapty-extended.vercel.app/',
   },
 ]
 
