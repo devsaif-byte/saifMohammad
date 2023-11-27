@@ -30,12 +30,12 @@ const projects = [
     livePreview: 'https://github.com',
   },
   {
-    name: 'Project 2',
+    name: 'DOM Bankist',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'A Clean and minimalist banking website version design with beautifull transition effects.',
+    stack: ['HTML', 'CSS', 'Vanilla Js'],
+    sourceCode: 'https://github.com/devsaif-byte/dom-bankist',
+    livePreview: 'https://dom-bankist.vercel.app/',
   },
   {
     name: 'Project 3',
