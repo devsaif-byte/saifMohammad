@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: center;
   margin-top: 3em;
+  padding: 0 20px;
 }
 
 .about__name {
@@ -23,6 +24,9 @@
 .about__desc,
 .about__contact {
   margin-top: 2.4em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .about .link--icon {

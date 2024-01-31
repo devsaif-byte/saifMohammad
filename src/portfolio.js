@@ -8,10 +8,13 @@ import {
   FaNodeJs,
 } from 'react-icons/fa'
 import { SiTailwindcss, SiMongodb, SiExpress } from 'react-icons/si'
-import bankistImage from './images/bankist_mock.png'
-import domBankist from './images/domBankist.png'
+// import bankistImage from './images/bankist_mock.png'
+// import domBankist from './images/domBankist.png'
 import ageCalc from './images/age_calc.png'
 import mapty from './images/mapty.png'
+import pizzaCart from './images/pizza-cart.png'
+import tarbiyah from './images/tarbiyah.png'
+import vivaHaus from './images/vivaHaus.png'
 
 const header = {
   // all the properties are optional - can be left empty or deleted
@@ -36,39 +39,68 @@ const about = {
 const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
+
+  {
+    name: 'VivaHaus',
+    description: 'Real estate multi-user web app.',
+    image: vivaHaus,
+    stack: ['React', 'Express', 'MongoDb', 'Tailwind', 'Firebase'],
+    sourceCode: {
+      frontEnd: 'https://github.com/devsaif-byte/viva-hous-react',
+      backEnd: 'https://github.com/devsaif-byte/viva-hous-server',
+    },
+    livePreview: 'https://viva3412a.web.app/',
+  },
+  {
+    name: 'Pizza Cart',
+    description: 'Pizza order cart.',
+    image: pizzaCart,
+    stack: ['React', 'Tailwind', 'Redux'],
+    sourceCode: {
+      frontEnd: 'https://github.com/devsaif-byte/fast-react-pizza/',
+    },
+    livePreview: 'https://fast-react-pizza-sable.vercel.app/',
+  },
+  {
+    name: 'Tarbiyah Ideal School',
+    description: 'Client Project. (sourcecode not be available)',
+    image: tarbiyah,
+    stack: ['React', 'Tailwind'],
+    sourceCode: null,
+    livePreview: 'https://tarbiyah.info/',
+  },
   {
     name: 'Mapty',
-    description: 'A Workout listing location app using vanilla js.',
+    description: 'Geolocation app using vanilla js.',
     image: mapty,
     stack: ['HTML', 'SCSS', 'Javascript', 'DOM'],
-    sourceCode: 'https://github.com/devsaif-byte/mapty-extended',
+    sourceCode: { frontEnd: 'https://github.com/devsaif-byte/mapty-extended' },
     livePreview: 'https://mapty-extended.vercel.app/',
   },
-  {
-    name: 'Bankist Transaction',
-    description:
-      'A basic transaction app that shows up current account balance after logged in. User can transfer money, request loan and delete account.',
-    image: bankistImage,
-    stack: ['HTML', 'CSS', 'JavaScript'],
-    sourceCode: 'https://github.com/devsaif-byte/bankist-arr',
-    livePreview: 'https://my-repo-gzgbdzura-devsaif-byte.vercel.app/',
-  },
-  {
-    name: 'DOM Bankist',
-    description:
-      'A clean minimalist banking webpage with beautiful css animation and effects.',
-    image: domBankist,
-    stack: ['HTML', 'CSS', 'Vanilla Js'],
-    sourceCode: 'https://github.com/devsaif-byte/dom-bankist',
-    livePreview: 'https://dom-bankist.vercel.app/',
-  },
+  // {
+  //   name: 'Bankist Transaction',
+  //   description:
+  //     'Bank transaction app that shows up current account balance after logged in. User can transfer money, request loan and delete account.',
+  //   image: bankistImage,
+  //   stack: ['HTML', 'CSS', 'JavaScript'],
+  //   sourceCode: 'https://github.com/devsaif-byte/bankist-arr',
+  //   livePreview: 'https://my-repo-gzgbdzura-devsaif-byte.vercel.app/',
+  // },
+  // {
+  //   name: 'DOM Bankist',
+  //   description: 'Webpage with beautiful css animation and effects.',
+  //   image: domBankist,
+  //   stack: ['HTML', 'CSS', 'Vanilla Js'],
+  //   sourceCode: 'https://github.com/devsaif-byte/dom-bankist',
+  //   livePreview: 'https://dom-bankist.vercel.app/',
+  // },
   {
     name: 'Age Calculator',
     description:
-      'A simple age calculator using vanilla.js and pico.css, challenge by Frontend Mentor.',
+      'Age calculator using vanilla.js and pico.css, challenge by Frontend Mentor.',
     image: ageCalc,
     stack: ['HTML', 'PicoCSS', 'CSS', 'Javascript', 'DOM'],
-    sourceCode: 'https://github.com/devsaif-byte/age-calculator',
+    sourceCode: { frontEnd: 'https://github.com/devsaif-byte/age-calculator' },
     livePreview: 'https://age-calculator3.netlify.app/',
   },
 ]

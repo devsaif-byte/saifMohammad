@@ -20,9 +20,18 @@ function ProjectContainer({ project }) {
         </ul>
       )}
 
-      {project.sourceCode && (
+      {project.sourceCode.frontEnd && (
         <a
-          href={project.sourceCode}
+          href={project.sourceCode.frontEnd}
+          aria-label='source code'
+          className='link link--icon'
+        >
+          <AiFillGithub />
+        </a>
+      )}
+      {project.sourceCode.backEnd && (
+        <a
+          href={project.sourceCode.backEnd}
           aria-label='source code'
           className='link link--icon'
         >

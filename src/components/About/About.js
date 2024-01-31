@@ -10,7 +10,7 @@ function About() {
     <div className='about'>
       {name && (
         <h1>
-          Hi there👋, I am
+          Hi👋, I am
           <span className='about__name'> {name}</span>
         </h1>
       )}
