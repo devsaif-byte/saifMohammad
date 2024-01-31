@@ -66,7 +66,9 @@ const projects = [
     description: 'Client Project. (sourcecode not be available)',
     image: tarbiyah,
     stack: ['React', 'Tailwind'],
-    sourceCode: null,
+    sourceCode: {
+      frontEnd: null,
+    },
     livePreview: 'https://tarbiyah.info/',
   },
   {
