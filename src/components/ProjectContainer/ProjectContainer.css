@@ -2,16 +2,20 @@
   padding: 2em;
   margin: 0 auto;
   text-align: center;
-  box-shadow: var(--shadow);
+  /* box-shadow: var(--shadow); */
   transition: transform 0.2s linear;
+  outline: 0.5px solid var(--clr-primary);
 }
 
 .project:hover {
   transform: translateY(-7px);
 }
-
+.project__image {
+  width: 100%;
+}
 .project__description {
   margin-top: 1em;
+  text-align: start;
 }
 
 .project__stack {

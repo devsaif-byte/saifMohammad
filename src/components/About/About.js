@@ -1,28 +1,58 @@
-import FacebookIcon from '@material-ui/icons/Facebook'
-import GitHubIcon from '@material-ui/icons/GitHub'
-import LinkedInIcon from '@material-ui/icons/LinkedIn'
+import { FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa'
+import Typewriter from 'typewriter-effect'
 import { about } from '../../portfolio'
 import './About.css'
 
-const About = () => {
+function About() {
   const { name, role, description, resume, social } = about
 
   return (
-    <div className='about center'>
+    <div className='about'>
       {name && (
         <h1>
-          Hi, I am <span className='about__name'>{name}.</span>
+          <span className='about__name'> {name}</span>
         </h1>
       )}
 
-      {role && <h2 className='about__role'>A {role}.</h2>}
+      {role && (
+        <h2 className='about__role'>
+          <Typewriter
+            onInit={(typewriter) => {
+              typewriter
+                .typeString()
+                .callFunction(() => {
+                  console.log('String typed out!')
+                })
+                .pauseFor(1000)
+                .deleteAll()
+                .callFunction(() => {
+                  console.log('All strings were deleted')
+                })
+                .start()
+                .stop()
+            }}
+            options={{
+              strings: [
+                'Frontend Developer',
+                'Elegant Designer',
+                'Efficient Collaborator',
+                'Adaptable Team Player',
+              ],
+              wrapperClassName: 'about__role',
+              autoStart: true,
+              loop: true,
+            }}
+          />
+        </h2>
+      )}
+
       <p className='about__desc'>{description && description}</p>
 
       <div className='about__contact center'>
         {resume && (
           <a href={resume}>
             <span type='button' className='btn btn--outline'>
-              Resume
+              resume
             </span>
           </a>
         )}
@@ -35,7 +65,7 @@ const About = () => {
                 aria-label='github'
                 className='link link--icon'
               >
-                <GitHubIcon />
+                <FaGithub />
               </a>
             )}
 
@@ -45,7 +75,7 @@ const About = () => {
                 aria-label='linkedin'
                 className='link link--icon'
               >
-                <LinkedInIcon />
+                <FaLinkedin />
               </a>
             )}
 
@@ -55,7 +85,7 @@ const About = () => {
                 aria-label='facebook'
                 className='link link--icon'
               >
-                <FacebookIcon />
+                <FaFacebook />
               </a>
             )}
           </>

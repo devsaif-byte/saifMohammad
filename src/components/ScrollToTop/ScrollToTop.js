@@ -1,8 +1,9 @@
+/* eslint-disable jsx-a11y/no-interactive-element-to-noninteractive-role */
 import React, { useEffect, useState } from 'react'
-import ArrowUpwardIcon from '@material-ui/icons/ArrowUpward'
+import { BsArrowUp } from 'react-icons/bs'
 import './ScrollToTop.css'
 
-const ScrollToTop = () => {
+function ScrollToTop() {
   const [isVisible, setIsVisible] = useState(false)
 
   useEffect(() => {
@@ -16,7 +17,7 @@ const ScrollToTop = () => {
   return isVisible ? (
     <div className='scroll-top'>
       <a href='#top'>
-        <ArrowUpwardIcon fontSize='large' />
+        <BsArrowUp fontSize='large' />{' '}
       </a>
     </div>
   ) : null

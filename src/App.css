@@ -1,12 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 .app {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif;
+  /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif; */
   line-height: 1.5;
   color: var(--clr-fg);
   background-color: var(--clr-bg);
+  margin: 2rem;
+  -webkit-box-shadow: 0px 0px 2px 1px rgba(224, 224, 224, 1);
+  -moz-box-shadow: 0px 0px 2px 1px rgba(224, 224, 224, 1);
+  box-shadow: 0px 0px 2px 1px rgba(224, 224, 224, 1);
 }
 
 .light {
-  --clr-bg: #fcfcfc;
+  --clr-bg: #fafafa;
   --clr-bg-alt: #fff;
   --clr-fg: #555;
   --clr-fg-alt: #444;
@@ -16,20 +24,19 @@
 }
 
 .dark {
-  --clr-bg: #23283e;
+  /* --clr-bg: #23283e; */
+  --clr-bg: #1e1e1e;
   --clr-bg-alt: #2a2f4c;
-  --clr-fg: #bdbddd;
-  --clr-fg-alt: #cdcdff;
-  /* --clr-primary: #90a0d9; */
-  /* --clr-primary: #9be15d; */
+  --clr-fg: #ffffffe1;
+  --clr-fg-alt: #f7f7f7da;
   --clr-primary: rgb(57, 179, 133);
   --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
 main {
-  max-width: 1100px;
-  width: 95%;
+  max-width: 1440px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -39,7 +46,7 @@ main {
 
 .section__title {
   text-align: center;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
   text-transform: uppercase;
 }
 
@@ -76,7 +83,7 @@ main {
 
 .link--nav {
   color: var(--clr-fg);
-  text-transform: lowercase;
+  /* text-transform: lowercase; */
   font-weight: 500;
 }
 
@@ -90,8 +97,8 @@ main {
   padding: 0.8em 1.4em;
   font-weight: 500;
   font-size: 0.9rem;
-  text-transform: lowercase;
   transition: transform 0.2s ease-in-out;
+  text-transform: capitalize;
 }
 
 .btn--outline {
