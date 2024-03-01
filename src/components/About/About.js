@@ -10,7 +10,6 @@ function About() {
     <div className='about'>
       {name && (
         <h1>
-          Hi👋, I am
           <span className='about__name'> {name}</span>
         </h1>
       )}
@@ -35,9 +34,9 @@ function About() {
             options={{
               strings: [
                 'Frontend Developer',
-                'They call me a virtuoso',
-                'I Work well both individually and as part of a group',
-                'Diligent worker',
+                'Elegant Designer',
+                'Efficient Collaborator',
+                'Adaptable Team Player',
               ],
               wrapperClassName: 'about__role',
               autoStart: true,

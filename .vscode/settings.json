@@ -1,0 +1,7 @@
+{
+  "editor.fontFamily": " 'Fira Code', Consolas, 'Courier New', monospace",
+  "files.autoSave": "onFocusChange",
+  "editor.cursorStyle": "underline",
+  "terminal.integrated.fontFamily": "Hack,'Fira Code'",
+  "terminal.integrated.fontSize": 15
+}

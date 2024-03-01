@@ -15,6 +15,7 @@ import mapty from './images/mapty.png'
 import pizzaCart from './images/pizza-cart.png'
 import tarbiyah from './images/tarbiyah.png'
 import vivaHaus from './images/vivaHaus.png'
+import minimalCart from './images/minimal-cart.png'
 
 const header = {
   // all the properties are optional - can be left empty or deleted
@@ -24,10 +25,9 @@ const header = {
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'Saif',
+  name: 'Mohammad Saif',
   role: 'Front End Developer',
-  description:
-    "As a Frontend Developer, I engage in building and managing website and web application user interfaces. I'm familiar with front-end web development technologies like HTML, CSS, JavaScript, and React, as well as version control systems and web development tools. I rely on my problem-solving, communication skills, attention to detail, and passion for learning.",
+  description: `Hello! 👋 I'm your friendly Frontend Expert! 🌟 I create and manage the look of websites and web apps.💻 I use things like HTML, CSS, JavaScript, and React to make them awesome! 🚀 I'm good at fixing problems, talking to people, and paying attention to details. 🧩 Plus, I love learning new stuff! 📚`,
   resume: 'https://1drv.ms/w/s!AqmKfDMkDkich0fFQt7dokn3zhpd?e=xkxp4O',
   social: {
     Facebook: 'https://www.facebook.com/saifmohammad2020/',
@@ -40,6 +40,17 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
 
+  {
+    name: 'Minimalist functional shipping cart',
+    description:
+      'Calculating products subtotal, tax, discount using redux toolkit',
+    image: minimalCart,
+    stack: ['React', 'Redux-toolkit', 'Geist UI', 'Tailwind', 'Fakestore API'],
+    sourceCode: {
+      frontEnd: 'https://github.com/devsaif-byte/shipping-cart-task',
+    },
+    livePreview: 'https://shipping-cart-task.vercel.app',
+  },
   {
     name: 'VivaHaus',
     description: 'Real estate multi-user web app.',
