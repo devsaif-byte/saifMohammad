@@ -1,5 +1,6 @@
 import { FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa'
 import Typewriter from 'typewriter-effect'
+import { motion } from 'framer-motion'
 import { about } from '../../portfolio'
 import './About.css'
 
@@ -7,7 +8,11 @@ function About() {
   const { name, role, description, resume, social } = about
 
   return (
-    <div className='about'>
+    <motion.div
+      animate={{ y: -30 }}
+      transition={{ duration: 1.3 }}
+      className='about'
+    >
       {name && (
         <h1>
           <span className='about__name'> {name}</span>
@@ -91,7 +96,7 @@ function About() {
           </>
         )}
       </div>
-    </div>
+    </motion.div>
   )
 }
 

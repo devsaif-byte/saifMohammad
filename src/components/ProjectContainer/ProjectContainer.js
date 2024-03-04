@@ -1,11 +1,12 @@
 import uniqid from 'uniqid'
+import { motion } from 'framer-motion'
 import { AiFillGithub } from 'react-icons/ai'
 import { MdLaunch } from 'react-icons/md'
 import './ProjectContainer.css'
 
 function ProjectContainer({ project }) {
   return (
-    <div className='project'>
+    <motion.div initial={{}} transition={{ duration: 2 }} className='project'>
       <img className='project__image' alt='project' src={project.image} />
       <h3>{project.name}</h3>
 
@@ -48,7 +49,7 @@ function ProjectContainer({ project }) {
           <MdLaunch />
         </a>
       )}
-    </div>
+    </motion.div>
   )
 }
 

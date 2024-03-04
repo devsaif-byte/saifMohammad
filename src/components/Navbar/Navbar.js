@@ -1,5 +1,6 @@
 import { useContext, useState } from 'react'
 import { MdBrightness2, MdWbSunny, MdMenu, MdClose } from 'react-icons/md'
+import { motion } from 'framer-motion'
 import { ThemeContext } from '../../contexts/theme'
 import { projects, skills, contact } from '../../portfolio'
 import './Navbar.css'
@@ -11,7 +12,12 @@ function Navbar() {
   const toggleNavList = () => setShowNavList(!showNavList)
 
   return (
-    <nav className='center nav'>
+    <motion.nav
+      className='center nav'
+      initial={{ y: -350 }}
+      animate={{ y: 0 }}
+      transition={{ duration: 1 }}
+    >
       <ul
         style={{ display: showNavList ? 'flex' : null }}
         className='nav__list'
@@ -70,7 +76,7 @@ function Navbar() {
       >
         {showNavList ? <MdClose /> : <MdMenu />}
       </button>
-    </nav>
+    </motion.nav>
   )
 }
 

@@ -1,4 +1,5 @@
 import { useContext } from 'react'
+import { motion } from 'framer-motion'
 import { ThemeContext } from './contexts/theme'
 import Header from './components/Header/Header'
 import About from './components/About/About'
@@ -15,14 +16,12 @@ function App() {
   return (
     <div id='top' className={`${themeName} app`}>
       <Header />
-
-      <main>
+      <motion.main initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
         <About />
         <Projects />
         <Skills />
         <Contact />
-      </main>
-
+      </motion.main>
       <ScrollToTop />
       <Footer />
     </div>

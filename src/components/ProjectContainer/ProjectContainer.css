@@ -1,8 +1,8 @@
 .project {
   padding: 2em;
-  margin: 0 auto;
+  margin: 0;
   text-align: center;
-  /* box-shadow: var(--shadow); */
+  box-shadow: var(--shadow);
   transition: transform 0.2s linear;
   outline: 0.5px solid var(--clr-primary);
 }

@@ -19,7 +19,7 @@ import minimalCart from './images/minimal-cart.png'
 
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://saif-mohammad.vercel.app/',
+  homepage: 'https://portfolio-saif3.vercel.app/',
   title: 'Portfolio',
 }
 
@@ -41,7 +41,7 @@ const projects = [
   // if there are no projects, Projects section won't show up
 
   {
-    name: 'Minimalist functional shipping cart',
+    name: 'Minimalist Functional Shipping Cart',
     description:
       'Calculating products subtotal, tax, discount using redux toolkit',
     image: minimalCart,
@@ -74,7 +74,7 @@ const projects = [
   },
   {
     name: 'Tarbiyah Ideal School',
-    description: 'Client Project. (sourcecode not be available)',
+    description: 'Client Project.',
     image: tarbiyah,
     stack: ['React', 'Tailwind'],
     sourceCode: {
