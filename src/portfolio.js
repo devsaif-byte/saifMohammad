@@ -16,6 +16,7 @@ import pizzaCart from './images/pizza-cart.png'
 import tarbiyah from './images/tarbiyah.png'
 import vivaHaus from './images/vivaHaus.png'
 import minimalCart from './images/minimal-cart.png'
+import nebula from './images/nebula.png'
 
 const header = {
   // all the properties are optional - can be left empty or deleted
@@ -40,6 +41,23 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
 
+  {
+    name: 'Nebula Bank',
+    description: 'Cosmic bank using react',
+    image: nebula,
+    stack: [
+      'React',
+      'React-router',
+      'Aceternity UI',
+      'Next UI',
+      'Tailwind',
+      'Appwrite auth/database',
+    ],
+    sourceCode: {
+      frontEnd: 'https://github.com/devsaif-byte/bank-nebula-app',
+    },
+    livePreview: 'https://bank-nebula-app.vercel.app/',
+  },
   {
     name: 'Minimalist Functional Shipping Cart',
     description:
