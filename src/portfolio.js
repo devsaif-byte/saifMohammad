@@ -59,7 +59,7 @@ const projects = [
     livePreview: 'https://bank-nebula-app.vercel.app/',
   },
   {
-    name: 'Minimalist Functional Shipping Cart',
+    name: 'Functional Shipping Cart',
     description:
       'Calculating products subtotal, tax, discount using redux toolkit',
     image: minimalCart,
@@ -80,16 +80,16 @@ const projects = [
     },
     livePreview: 'https://viva3412a.web.app/',
   },
-  {
-    name: 'Pizza Cart',
-    description: 'Pizza order cart.',
-    image: pizzaCart,
-    stack: ['React', 'Tailwind', 'Redux'],
-    sourceCode: {
-      frontEnd: 'https://github.com/devsaif-byte/fast-react-pizza/',
-    },
-    livePreview: 'https://fast-react-pizza-sable.vercel.app/',
-  },
+  // {
+  //   name: 'Pizza Cart',
+  //   description: 'Pizza order cart.',
+  //   image: pizzaCart,
+  //   stack: ['React', 'Tailwind', 'Redux'],
+  //   sourceCode: {
+  //     frontEnd: 'https://github.com/devsaif-byte/fast-react-pizza/',
+  //   },
+  //   livePreview: 'https://fast-react-pizza-sable.vercel.app/',
+  // },
   {
     name: 'Tarbiyah Ideal School',
     description: 'Client Project.',
@@ -100,14 +100,14 @@ const projects = [
     },
     livePreview: 'https://tarbiyah.info/',
   },
-  {
-    name: 'Mapty',
-    description: 'Geolocation app using vanilla js.',
-    image: mapty,
-    stack: ['HTML', 'SCSS', 'Javascript', 'DOM'],
-    sourceCode: { frontEnd: 'https://github.com/devsaif-byte/mapty-extended' },
-    livePreview: 'https://mapty-extended.vercel.app/',
-  },
+  // {
+  //   name: 'Mapty',
+  //   description: 'Geolocation app using vanilla js.',
+  //   image: mapty,
+  //   stack: ['HTML', 'SCSS', 'Javascript', 'DOM'],
+  //   sourceCode: { frontEnd: 'https://github.com/devsaif-byte/mapty-extended' },
+  //   livePreview: 'https://mapty-extended.vercel.app/',
+  // },
   // {
   //   name: 'Bankist Transaction',
   //   description:
