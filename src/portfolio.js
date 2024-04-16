@@ -11,12 +11,13 @@ import { SiTailwindcss, SiMongodb, SiExpress } from 'react-icons/si'
 // import bankistImage from './images/bankist_mock.png'
 // import domBankist from './images/domBankist.png'
 import ageCalc from './images/age_calc.png'
-import mapty from './images/mapty.png'
-import pizzaCart from './images/pizza-cart.png'
+// import mapty from './images/mapty.png'
+// import pizzaCart from './images/pizza-cart.png'
 import tarbiyah from './images/tarbiyah.png'
 import vivaHaus from './images/vivaHaus.png'
 import minimalCart from './images/minimal-cart.png'
 import nebula from './images/nebula.png'
+import jobApp from './images/jobApp.png'
 
 const header = {
   // all the properties are optional - can be left empty or deleted
@@ -41,6 +42,25 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
 
+  {
+    name: 'Multi User Job Seeking Application',
+    description:
+      'Connect employers and job seekers with user-friendly Job Post Application.',
+    image: jobApp,
+    stack: [
+      'React',
+      'React-router',
+      'Next UI',
+      'Tailwind',
+      'MongoDb',
+      'Cloudinary',
+    ],
+    sourceCode: {
+      frontEnd:
+        'https://github.com/devsaif-byte/job-seeking-MERN-application-frontend',
+    },
+    livePreview: 'https://job-seeking-mern-application-frontend.vercel.app/',
+  },
   {
     name: 'Nebula Bank',
     description: 'Cosmic bank using react',
