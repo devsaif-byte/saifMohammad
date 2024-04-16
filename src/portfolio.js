@@ -145,15 +145,15 @@ const projects = [
   //   sourceCode: 'https://github.com/devsaif-byte/dom-bankist',
   //   livePreview: 'https://dom-bankist.vercel.app/',
   // },
-  {
-    name: 'Age Calculator',
-    description:
-      'Age calculator using vanilla.js and pico.css, challenge by Frontend Mentor.',
-    image: ageCalc,
-    stack: ['HTML', 'PicoCSS', 'CSS', 'Javascript', 'DOM'],
-    sourceCode: { frontEnd: 'https://github.com/devsaif-byte/age-calculator' },
-    livePreview: 'https://age-calculator3.netlify.app/',
-  },
+  // {
+  //   name: 'Age Calculator',
+  //   description:
+  //     'Age calculator using vanilla.js and pico.css, challenge by Frontend Mentor.',
+  //   image: ageCalc,
+  //   stack: ['HTML', 'PicoCSS', 'CSS', 'Javascript', 'DOM'],
+  //   sourceCode: { frontEnd: 'https://github.com/devsaif-byte/age-calculator' },
+  //   livePreview: 'https://age-calculator3.netlify.app/',
+  // },
 ]
 
 const skills = [
