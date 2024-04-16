@@ -30,7 +30,7 @@ const about = {
   name: 'Mohammad Saif',
   role: 'Front End Developer',
   description: `Hello! 👋 I'm your friendly Frontend Expert! 🌟 I create and manage the look of websites and web apps.💻 I use things like HTML, CSS, JavaScript, and React to make them awesome! 🚀 I'm good at fixing problems, talking to people, and paying attention to details. 🧩 Plus, I love learning new stuff! 📚`,
-  resume: 'https://1drv.ms/w/s!AqmKfDMkDkich0fFQt7dokn3zhpd?e=xkxp4O',
+  resume: 'https://1drv.ms/w/s!AqmKfDMkDkickXpVIFucLtgW6gyj?e=wntN08',
   social: {
     Facebook: 'https://www.facebook.com/saifmohammad2020/',
     linkedin: 'https://www.linkedin.com/in/md-saif-bd/',
