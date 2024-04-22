@@ -59,7 +59,7 @@ const projects = [
       frontEnd:
         'https://github.com/devsaif-byte/job-seeking-MERN-application-frontend',
     },
-    livePreview: 'https://job-seeking-mern-application-frontend.vercel.app/',
+    livePreview: 'https://job-seek-liard.vercel.app',
   },
   {
     name: 'Nebula Bank',
@@ -76,7 +76,7 @@ const projects = [
     sourceCode: {
       frontEnd: 'https://github.com/devsaif-byte/bank-nebula-app',
     },
-    livePreview: 'https://bank-nebula-app.vercel.app/',
+    livePreview: 'https://bank-nebula-app.vercel.app',
   },
   {
     name: 'Functional Shipping Cart',
@@ -98,7 +98,7 @@ const projects = [
       frontEnd: 'https://github.com/devsaif-byte/viva-hous-react',
       backEnd: 'https://github.com/devsaif-byte/viva-hous-server',
     },
-    livePreview: 'https://viva3412a.web.app/',
+    livePreview: 'https://viva3412a.web.app',
   },
   // {
   //   name: 'Pizza Cart',
@@ -118,7 +118,7 @@ const projects = [
     sourceCode: {
       frontEnd: null,
     },
-    livePreview: 'https://tarbiyah.info/',
+    livePreview: 'https://tarbiyah.info',
   },
   // {
   //   name: 'Mapty',
