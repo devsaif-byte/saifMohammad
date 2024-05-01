@@ -112,11 +112,19 @@ const projects = [
   // },
   {
     name: 'Tarbiyah Ideal School',
-    description: 'Client Project.',
+    description: 'A Reputed School Website and Multi user Dashboard Project.',
     image: tarbiyah,
-    stack: ['React', 'Tailwind'],
+    stack: [
+      'React',
+      'Tailwind',
+      'Material-Tailwind',
+      'Next-UI',
+      'Express',
+      'Mongoose',
+    ],
     sourceCode: {
       frontEnd: null,
+      backEnd: 'https://github.com/devsaif-byte/tarbiyah-backend',
     },
     livePreview: 'https://tarbiyah.info',
   },
