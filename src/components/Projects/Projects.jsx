@@ -13,9 +13,9 @@ function Projects() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1.6 }}
       id='projects'
-      className='section projects'
+      className='section projects center'
     >
-      <h2 className='section__title'>Projects</h2>
+      <h2 className='section__title faulty-letter glowing-txt'>Projects</h2>
 
       <div className='projects__grid'>
         {projects.map((project) => (

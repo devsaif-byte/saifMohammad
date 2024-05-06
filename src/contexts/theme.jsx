@@ -1,7 +1,7 @@
-import { createContext, useEffect, useMemo, useState } from 'react'
+import React, { createContext, useEffect, useMemo, useState } from 'react'
 import PropTypes from 'prop-types'
 
-const ThemeContext = createContext()
+const ThemeContext = React.createContext()
 
 function ThemeProvider({ children }) {
   const [themeName, setThemeName] = useState('light')
@@ -22,7 +22,7 @@ function ThemeProvider({ children }) {
 
   const values = useMemo(
     () => [{ themeName, toggleTheme }],
-    [themeName, toggleTheme]
+    [themeName, toggleTheme],
   )
   return (
     <ThemeContext.Provider value={values}>{children}</ThemeContext.Provider>

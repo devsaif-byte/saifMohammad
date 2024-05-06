@@ -1,6 +1,7 @@
 import { useContext, useState } from 'react'
 import { MdBrightness2, MdWbSunny, MdMenu, MdClose } from 'react-icons/md'
 import { motion } from 'framer-motion'
+import { PowerGlitch } from 'powerglitch'
 import { ThemeContext } from '../../contexts/theme'
 import { projects, skills, contact } from '../../portfolio'
 import './Navbar.css'
@@ -39,7 +40,7 @@ function Navbar() {
             <a
               href='#skills'
               onClick={toggleNavList}
-              className='link link--nav'
+              className='link link--nav faulty-letter glowing-txt'
             >
               Skills
             </a>
