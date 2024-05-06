@@ -2,6 +2,9 @@
   "name": "cleanfolio",
   "version": "0.1.1",
   "private": true,
+  "engines": {
+    "node": "20.x"
+  },
   "type": "module",
   "homepage": "https://saif-mohammad.vercel.app/",
   "dependencies": {
