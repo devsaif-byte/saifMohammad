@@ -7,21 +7,27 @@ import './Header.css'
 function Header() {
   const { homepage, title } = header
 
+  // <button type='button' className='glowing-btn'>
+  //       <span className='glowing-txt'>
+  //         C<span className='faulty-letter'>L</span>ICK
+  //       </span>
+  // </button>
   return (
     <header className='header center'>
-      <motion.h3
+      <motion.h4
         initial={{ y: -350 }}
         animate={{ y: 0 }}
         transition={{ duration: 1 }}
       >
         {homepage ? (
-          <a href={homepage} className='link'>
-            <FaTerminal style={{ height: '0.7em', width: '1.2em' }} /> {title}
+          <a href={homepage} className='link faulty-letter glowing-txt'>
+            {/* <FaTerminal style={{ height: '0.7em', width: '1.2em' }} /> {title} */}
+            {title}
           </a>
         ) : (
           title
         )}
-      </motion.h3>
+      </motion.h4>
       <Navbar />
     </header>
   )

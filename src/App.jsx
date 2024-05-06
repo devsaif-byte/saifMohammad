@@ -1,5 +1,6 @@
-import { useContext } from 'react'
+import React, { useContext } from 'react'
 import { motion } from 'framer-motion'
+import { PowerGlitch } from 'powerglitch'
 import { ThemeContext } from './contexts/theme'
 import Header from './components/Header/Header'
 import About from './components/About/About'
@@ -10,8 +11,12 @@ import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import './App.css'
 
+PowerGlitch.glitch('.section__title', {
+  playMode: 'always',
+  pulse: true,
+})
 function App() {
-  const [{ themeName }] = useContext(ThemeContext)
+  const [{ themeName }] = React.useContext(ThemeContext)
 
   return (
     <div id='top' className={`${themeName} app`}>

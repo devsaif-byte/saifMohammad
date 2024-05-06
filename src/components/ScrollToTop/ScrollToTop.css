@@ -2,6 +2,7 @@
   position: fixed;
   bottom: 2.5em;
   right: 4em;
+  color: var(--clr-fg);
   background-color: var(--clr-primary);
   width: 30px;
   height: 30px;
