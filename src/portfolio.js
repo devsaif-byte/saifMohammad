@@ -16,7 +16,7 @@ const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Hello, Saif here.',
   role: 'Front End Developer',
-  description: `I use things like HTML, CSS, JavaScript, and React. I'm currently attending Islamic Arabic University, Majoring in Social Arts and minor in Islamic Studies. I have a profound interest in building staff with coding, full-stack development and cyber security. 🚀 `,
+  description: `I use things like HTML, CSS, JavaScript, and React. I'm currently attending Islamic Arabic University. I have a profound interest in building staff with coding, full-stack development and cyber security. 🚀 `,
   resume: 'https://1drv.ms/w/s!AqmKfDMkDkickXpVIFucLtgW6gyj?e=wntN08',
   social: {
     Facebook: 'https://www.facebook.com/saifmohammad2015',
