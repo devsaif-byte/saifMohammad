@@ -17,7 +17,7 @@ const about = {
   name: 'Hello, Saif here.',
   role: 'Front End Developer',
   description: `I use things like HTML, CSS, JavaScript, and React. I'm currently attending Southern Federal University. I have a profound interest in building staff with coding, full-stack development and cyber security. 🚀 `,
-  resume: 'https://1drv.ms/w/s!AqmKfDMkDkickXpVIFucLtgW6gyj?e=wntN08',
+  resume: '',
   social: {
     Facebook: 'https://www.facebook.com/saifmohammad2015',
     linkedin: 'https://www.linkedin.com/in/md-saif-bd',
